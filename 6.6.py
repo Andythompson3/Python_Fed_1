@@ -8,6 +8,8 @@ if take_test == 'yes':
     if name in already_taken:
         print('Sorry you already took the test')
     else:
-        already_taken.append(name)
+        already_taken.add(name)
+        print('Please follow this link')
 else:
     print('Then leave me alone')
+print(already_taken)
