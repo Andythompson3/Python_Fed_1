@@ -17,7 +17,7 @@ while unverified_user:
             else:
                 print("Then they are verified")
                 verified_user.append(unverified_user.pop(x))
-        print(f"Unverified = {unverified_user}")
+        print(f"Unverified = {unverified_user}"
         print(f"Verified = {verified_user}")
         print(f"Banned = {banned_group}")
 print("Done")
